@@ -1,0 +1,24 @@
+$Red: hsl(0, 100%, 74%);
+$Green: hsl(154, 59%, 51%);
+
+$Blue: hsl(248, 32%, 49%);
+
+$Dark-Blue: hsl(249, 10%, 26%);
+$Grayish-Blue: hsl(246, 25%, 77%);
+
+$Family: 'Poppins';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: $Family;
+  background: url(./images/bg-intro-mobile.png), $Red;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+}

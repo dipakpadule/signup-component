@@ -1,0 +1,109 @@
+$Red: hsl(0, 100%, 74%);
+$Green: hsl(154, 59%, 51%);
+
+$Blue: hsl(248, 32%, 49%);
+
+$Dark-Blue: hsl(249, 10%, 26%);
+$Grayish-Blue: hsl(246, 25%, 77%);
+$Grayish-Blue2:rgb(255, 255, 255);
+
+$Family: 'Poppins';
+
+//69.375remw* 34.875remh size
+// margin: 7.5625rem  10.31rem  
+//34.69rem half width
+
+.signup-card{
+  width: 23.44rem;
+  height: 62.5rem;
+  padding: 4.25rem 1.5rem;
+
+  .signup-card-info{
+    width: 100%;
+    height: 19.375rem;
+    text-align: center;
+    h1{
+      padding: 0 3.44rem;
+      font-size: 1.5rem;
+      color: #fff;
+      margin-bottom: 1.67rem;
+    }
+    p{
+      color: $Grayish-Blue2;
+    }
+  }
+  .signup-card-form{
+    width: 100%;
+    height: 34.625rem;
+    .signup-card-form-trial-card{
+      width: 100%;
+      height: 5.5rem;
+      padding: 0 4.44rem;
+      background: $Blue;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      color: $Grayish-Blue;
+      border-radius: 0.6rem;
+      span{
+        font-weight: 600;
+        color: #fff;
+      }
+      margin-bottom: 1.5rem;
+    }
+
+    .signup-card-formdata{
+      width: 100%;
+      height: 27.62rem;
+      padding: 1.5rem;
+      border-radius: 0.6rem;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      ::placeholder{
+        padding-left: 1rem;
+      }
+      button{
+        background: $Green;
+        text-transform: uppercase;
+        letter-spacing: 0.15rem;
+        color: whitesmoke;
+        font-weight: 600;
+      }
+      :hover{
+        cursor: pointer;
+        background: hsl(154deg 71.04% 61.94%);
+      }
+      
+      a{
+        text-decoration: none;
+        text-align: center;
+        font-size: 0.7rem;
+        color: $Grayish-Blue;
+        span{
+          color:$Red;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .sze{
+      width: 100%;
+      height: 3.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid $Grayish-Blue;
+      border-radius: 0.6rem;
+      color: $Dark-Blue;
+      font-weight: 700;
+      
+    }
+    .szeb{
+      width: 100%;
+      height: 3.5rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 0.6rem;
+    }
+  }
+}
