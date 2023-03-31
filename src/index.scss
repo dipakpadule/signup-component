@@ -22,3 +22,11 @@ body{
   display: grid;
   place-items: center;
 }
+
+@media (min-width:85.37rem) and (max-width:96.87rem){
+  body{
+    background: url(./images/bg-intro-desktop.png), $Red;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
